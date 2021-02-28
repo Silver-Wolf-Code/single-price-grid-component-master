@@ -1,0 +1,39 @@
+.main__section {
+  display: grid;
+  max-width: 650px;
+  grid-template-columns: repeat(2, minmax(100px, auto));
+  grid-template-rows: 220px;
+}
+
+.main__card {
+  padding: 35px;
+}
+
+.top {
+  grid-column: 1/span 2;
+}
+
+.title {
+  font-size: 1.9rem;
+}
+
+.top__title {
+  font-size: 2.4rem;
+}
+
+.top__desc {
+  font-size: 1.8rem;
+}
+
+.top__copy {
+  font-size: 1.6rem;
+}
+
+.mid {
+  border-radius: 0 0 0 5px;
+}
+
+.buttom {
+  border-radius: 0 0 5px 0;
+  background: #4ABEBD;
+}

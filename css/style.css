@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background: var(--color-bg);
+}
+
+:root {
+  --color-one: #2ab2af;
+  --color-two: #c0df34;
+  --color-three: #98a6bd;
+  --color-bg: #e5eff5;
+}
+
+.main {
+  margin: 70px 26px;
+  display: grid;
+  justify-content: center;
+}
+
+.main__section {
+  display: grid;
+  grid-template-columns: minmax(100px, auto);
+  grid-template-rows: repeat(3, auto);
+  border-radius: 5rem;
+  box-shadow: 0 1.25rem 1.25rem #00000030;
+  max-width: 510px;
+}
+
+.main__card {
+  background: var(--color-one);
+  padding: 24px;
+}
+
+/* top */
+.top {
+  border-radius: 5px 5px 0 0;
+  background: #fff;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--color-one);
+}
+
+.top__desc {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--color-two);
+}
+
+.top__copy {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  margin-bottom: 5px;
+  color: var(--color-three);
+}
+
+.buttom {
+  border-radius: 0 0 5px 5px;
+}
+
+/* mid */
+.min__title {
+  color: #fff;
+}
+
+.mid__sub-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.mid__sub {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+
+.mid__sub-title-two {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.btn {
+  width: 100%;
+  max-width: 275px;
+  height: 47px;
+  border-radius: 5px;
+  border-style: none;
+  background: var(--color-two);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 3px;
+  transition: all .2s;
+  outline: none;
+}
+
+.btn:hover {
+  box-shadow: 0 0.625rem 1.25rem rgb(0 0 0 / 19%);
+  transform: translateY(-3px);
+}
+
+/* buttom */
+.buttom {
+  background: #4ABEBD;
+}
+
+.buttom__title {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.buttom__copy {
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255, 0.7);
+  max-width: 182px;
+  line-height: 2rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
